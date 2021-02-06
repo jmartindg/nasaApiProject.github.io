@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="nasa.svg">
+    <title>NASA API</title>
+</head>
+<body>
+
+    <header>
+        <h1>NASA API</h1>
+        <p>View different informations on NASA</p>
+    </header>
+
+    <div class="container">
+        <section class="APOD">
+            <h2>APOD: Astronomy Picture of the day</h2>
+            <button type="submit" class="searchBtn">View</button>
+            <h3 class="apodDate"></h3>
+            <h4 class="apodTitle"></h4>
+            <div class="content"></div>
+            <div class="apodImg"></div>
+        </section>
+
+        <hr>
+
+        <section class="earth">
+            <h2>Earth: Unlock the significant public investment in earth's observation data</h2>
+            <button type="submit" class="searchEarth">View</button>
+            <h3 class="earthDate"></h3>
+            <div class="earth-content"></div>
+        </section>
+
+        <hr>
+
+        <section class="geomagnetic">
+            <h2>GST: Geomagnetic Storm</h2>
+            <button type="submit" class="geoBtn">View</button>
+            <h3 class="geoId"></h3>
+            <h3 class="observed"></h3>
+            <h4 class="source"></h4>
+            <a class="geoLink"></a>
+        </section>
+        
+        <hr>
+
+        <section class="neo">
+            <h2>Asteroids - NeoWs</h2>
+            <p>See a list of 5 asteroids based on their closest approach date to Earth. Please wait 3-5 seconds.</p>
+            <button type="submit" class="neoBtn">View</button>
+            <h3 class="asteroid-name"></h3>
+            <p class="potential"></p>
+            <p class="kilometers"></p>
+
+            <h3 class="asteroid-name2"></h3>
+            <p class="potential2"></p>
+            <p class="kilometers2"></p>
+
+            <h3 class="asteroid-name3"></h3>
+            <p class="potential3"></p>
+            <p class="kilometers3"></p>
+
+            <h3 class="asteroid-name4"></h3>
+            <p class="potential4"></p>
+            <p class="kilometers4"></p>
+
+            <h3 class="asteroid-name5"></h3>
+            <p class="potential5"></p>
+            <p class="kilometers5"></p>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <h5>NASA API - Click <a href="https://api.nasa.gov/" target="_blank">here</a> to visit their website.</h5>
+    </footer>
+        
+    <script src="main.js"></script>
+</body>
+</html>

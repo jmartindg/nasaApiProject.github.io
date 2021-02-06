@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 30px 40px;
+  width: auto;
+}
+
+header p {
+  padding-top: 15px;
+}
+
+hr {
+  margin-bottom: 50px;
+}
+
+.container {
+  background: rgb(240, 240, 240);
+  color: #000;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.APOD {
+  margin-bottom: 30px;
+}
+
+.APOD h2,
+.earth h2,
+.geomagnetic h2,
+.neo h2 {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.neo p {
+  padding-bottom: 25px;
+}
+
+.APOD .content {
+  margin-top: 25px;
+}
+
+.apodDate {
+  line-height: 1.8;
+}
+
+.searchBtn,
+.searchEarth,
+.geoBtn,
+.neoBtn {
+  display: block;
+  width: 100px;
+  font-size: 20px;
+  padding: 7px 20px;
+  background: #0f4093;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.searchBtn:hover,
+.searchEarth:hover,
+.geoBtn:hover,
+.epicBtn:hover,
+.neoBtn:hover {
+  background: #0e3881;
+  color: #fff;
+}
+
+.apodContent {
+  background: rgb(248, 248, 248);
+  padding: 35px;
+  line-height: 1.8;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.earth-title {
+  background: #333;
+}
+
+.img-url {
+  display: flex;
+  margin: auto;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.geomagnetic {
+  padding-bottom: 10px;
+}
+
+.geoLink {
+  width: auto;
+  font-size: 18px;
+}
+
+.source {
+  padding-top: 20px;
+}
+
+.neo {
+  width: auto;
+}
+
+footer {
+  background: rgb(20, 20, 20);
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer h5 {
+  padding: 0 40px;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media (max-width: 609px) {
+  .geoLink {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .geoLink {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 396px) {
+  .geoLink {
+    font-size: 10px;
+  }
+}
